@@ -11,7 +11,7 @@
 
   <!-- Language configuration -->
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>12.0</LangVersion>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
 
