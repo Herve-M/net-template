@@ -11,6 +11,8 @@ insert_final_newline = true
 indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
+guidelines = 120
+guidelines_style = 2.5px dotted 40ff0000
 
 # Generated code
 [*{_AssemblyInfo.cs,.notsupported.cs,AsmOffsets.cs}]
@@ -36,7 +38,7 @@ csharp_indent_switch_labels = true
 csharp_indent_labels = one_less_than_current
 
 # Modifier preferences
-csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:suggestion
+csharp_preferred_modifier_order = public,private,protected,internal,file,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,required,volatile,async:suggestion
 
 # avoid this. unless absolutely necessary
 dotnet_style_qualification_for_field = false:suggestion
@@ -182,4 +184,3 @@ indent_size = 2
 end_of_line = lf
 [*.{cmd,bat}]
 end_of_line = crlf
-
