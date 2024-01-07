@@ -1,0 +1,38 @@
+{
+  "id": "f05164bc-9884-403d-b5f3-d7f111aab13c",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "Editor Guidelines",
+      "vsixId": "EditorGuidelines.f7dfa085-35e4-4844-8842-48298d5eaee0",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelinesPreview",
+      "downloadUrl": "https://paulharrington.gallery.vsassets.io:443/_apis/public/gallery/publisher/PaulHarrington/extension/EditorGuidelinesPreview/2.2.10/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "File Icons",
+      "vsixId": "3a7b4930-a5fb-46ec-a9b8-9610c8f953b8",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons",
+      "downloadUrl": "https://madskristensen.gallery.vsassets.io:443/_apis/public/gallery/publisher/MadsKristensen/extension/FileIcons/2.8.239/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Indent Guides for VS 2022",
+      "vsixId": "IndentGuide2022.SteveDower.0a67eb97-becd-451f-aa29-851d9fe5dd2b",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides2022",
+      "downloadUrl": "https://stevedowermsft.gallery.vsassets.io:443/_apis/public/gallery/publisher/SteveDowerMSFT/extension/IndentGuides2022/17.1.0.0/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Trailing Whitespace Visualizer",
+      "vsixId": "dac582ef-fc73-42f6-ad45-afaad93d88a4",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64",
+      "downloadUrl": "https://madskristensen.gallery.vsassets.io:443/_apis/public/gallery/publisher/MadsKristensen/extension/TrailingWhitespace64/2.6.98/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Visual Studio Spell Checker (VS2022 and Later)",
+      "vsixId": "E1019027-EE37-4B1A-AD4C-25CAA92CA2D5",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater",
+      "downloadUrl": "https://ewoodruff.gallery.vsassets.io:443/_apis/public/gallery/publisher/EWoodruff/extension/VisualStudioSpellCheckerVS2022andLater/2023.12.29.0/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    }
+  ]
+}
