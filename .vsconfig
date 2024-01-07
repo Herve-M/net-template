@@ -66,11 +66,11 @@
     "Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools",
     "Microsoft.VisualStudio.Component.Azure.Powershell",
     "Microsoft.VisualStudio.Workload.Azure",
-    "Microsoft.VisualStudio.ComponentGroup.MSIX.Packaging",
     "Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites",
     "Microsoft.VisualStudio.Component.DotNetModelBuilder",
     "Microsoft.ComponentGroup.Blend",
     "Microsoft.VisualStudio.Workload.ManagedDesktop",
+    "Microsoft.VisualStudio.Workload.Data",
     "Microsoft.NetCore.Component.Runtime.7.0"
   ]
 }
