@@ -1,15 +1,25 @@
 <Project>
   <PropertyGroup>
-    <EnableSingleFileAnalyzer>true</EnableSingleFileAnalyzer>
+    <AnalysisLevel>8.0-recommended</AnalysisLevel>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    
+    <!-- Disable old FxCop/CA0507  -->
+    <RunCodeAnalysis>false</RunCodeAnalysis> 
+
+    <!-- Avoid warning -->
+    <_SkipUpgradeNetAnalyzersNuGetWarning>true</_SkipUpgradeNetAnalyzersNuGetWarning>
   </PropertyGroup>
+
   <ItemGroup>
-    <EditorConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis.src.globalconfig" />
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.CodeStyle" Version="4.2.0 " PrivateAssets="all" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.*" PrivateAssets="all" />
+    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis.src.globalconfig" />
   </ItemGroup>
   <ItemGroup Condition="'$(IsTestProject)' == 'true'">
-    <EditorConfigFiles Remove="$(MSBuildThisFileDirectory)CodeAnalysis.src.globalconfig" />
-    <EditorConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis.test.globalconfig" />
+    <GlobalAnalyzerConfigFiles Remove="$(MSBuildThisFileDirectory)CodeAnalysis.src.globalconfig" />
+    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis.test.globalconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.*" PrivateAssets="all" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.*" PrivateAssets="all" />
   </ItemGroup>
 </Project>
