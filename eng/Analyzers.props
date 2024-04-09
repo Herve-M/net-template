@@ -17,9 +17,4 @@
     <GlobalAnalyzerConfigFiles Remove="$(MSBuildThisFileDirectory)CodeAnalysis.src.globalconfig" />
     <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis.test.globalconfig" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.*" PrivateAssets="all" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.*" PrivateAssets="all" />
-  </ItemGroup>
 </Project>
