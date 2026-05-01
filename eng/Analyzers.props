@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <AnalysisLevel>8.0-recommended</AnalysisLevel>
+    <AnalysisLevel>10.0-recommended</AnalysisLevel>
     <InvariantGlobalization>false</InvariantGlobalization>
     
     <!-- Disable old FxCop/CA0507  -->
